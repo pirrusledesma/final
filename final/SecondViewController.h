@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+extern NSString *var;
+@interface SecondViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
 
 @end

@@ -23,6 +23,25 @@
 		79B7F8AB190F2262000A152E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B7F887190F2262000A152E /* UIKit.framework */; };
 		79B7F8B3190F2263000A152E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79B7F8B1190F2263000A152E /* InfoPlist.strings */; };
 		79B7F8B5190F2263000A152E /* finalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B7F8B4190F2263000A152E /* finalTests.m */; };
+		79B7F8C2190F5831000A152E /* Cell_season.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B7F8C1190F5831000A152E /* Cell_season.m */; };
+		79B7F8C4190F61E5000A152E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B7F8C3190F61E5000A152E /* MediaPlayer.framework */; };
+		79B7F8C6190F63CB000A152E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B7F8C5190F63CB000A152E /* AudioToolbox.framework */; };
+		79B7F8C9190F6EBA000A152E /* Season.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B7F8C8190F6EBA000A152E /* Season.m */; };
+		79B7F8D419102ADC000A152E /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B7F8D319102ADC000A152E /* MapViewController.m */; };
+		79B7F8D619102B26000A152E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B7F8D519102B26000A152E /* MapKit.framework */; };
+		79B8BE581910353300ADDB39 /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B8BE571910353300ADDB39 /* MapView.m */; };
+		79B8BE5E1910418800ADDB39 /* corazon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79B8BE591910418800ADDB39 /* corazon.mp3 */; };
+		79B8BE5F1910418800ADDB39 /* cuerpo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79B8BE5A1910418800ADDB39 /* cuerpo.jpg */; };
+		79B8BE601910418800ADDB39 /* mexico.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79B8BE5B1910418800ADDB39 /* mexico.jpg */; };
+		79B8BE611910418800ADDB39 /* rinonder_.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79B8BE5C1910418800ADDB39 /* rinonder_.mp3 */; };
+		79B8BE621910418800ADDB39 /* rinonizq_.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79B8BE5D1910418800ADDB39 /* rinonizq_.mp3 */; };
+		79B8BE64191045D100ADDB39 /* venainf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79B8BE63191045D100ADDB39 /* venainf.mp3 */; };
+		79B8BE66191045E700ADDB39 /* aorta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79B8BE65191045E700ADDB39 /* aorta.mp3 */; };
+		79B8BE68191045ED00ADDB39 /* aortades.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79B8BE67191045ED00ADDB39 /* aortades.mp3 */; };
+		79B8BE6B1910502100ADDB39 /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B8BE6A1910502100ADDB39 /* ColorViewController.m */; };
+		79B8BE6E1910520C00ADDB39 /* azul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79B8BE6C1910520C00ADDB39 /* azul.jpg */; };
+		79B8BE6F1910520C00ADDB39 /* rojo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 79B8BE6D1910520C00ADDB39 /* rojo.jpeg */; };
+		79B8BE711910521300ADDB39 /* verde.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79B8BE701910521300ADDB39 /* verde.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +77,30 @@
 		79B7F8B0190F2263000A152E /* finalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "finalTests-Info.plist"; sourceTree = "<group>"; };
 		79B7F8B2190F2263000A152E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		79B7F8B4190F2263000A152E /* finalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = finalTests.m; sourceTree = "<group>"; };
+		79B7F8C0190F5831000A152E /* Cell_season.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell_season.h; sourceTree = "<group>"; };
+		79B7F8C1190F5831000A152E /* Cell_season.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell_season.m; sourceTree = "<group>"; };
+		79B7F8C3190F61E5000A152E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		79B7F8C5190F63CB000A152E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		79B7F8C7190F6EBA000A152E /* Season.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Season.h; sourceTree = "<group>"; };
+		79B7F8C8190F6EBA000A152E /* Season.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Season.m; sourceTree = "<group>"; };
+		79B7F8D219102ADC000A152E /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		79B7F8D319102ADC000A152E /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		79B7F8D519102B26000A152E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		79B8BE561910353300ADDB39 /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
+		79B8BE571910353300ADDB39 /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
+		79B8BE591910418800ADDB39 /* corazon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = corazon.mp3; sourceTree = "<group>"; };
+		79B8BE5A1910418800ADDB39 /* cuerpo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cuerpo.jpg; sourceTree = "<group>"; };
+		79B8BE5B1910418800ADDB39 /* mexico.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mexico.jpg; sourceTree = "<group>"; };
+		79B8BE5C1910418800ADDB39 /* rinonder_.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rinonder_.mp3; sourceTree = "<group>"; };
+		79B8BE5D1910418800ADDB39 /* rinonizq_.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rinonizq_.mp3; sourceTree = "<group>"; };
+		79B8BE63191045D100ADDB39 /* venainf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = venainf.mp3; sourceTree = "<group>"; };
+		79B8BE65191045E700ADDB39 /* aorta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aorta.mp3; sourceTree = "<group>"; };
+		79B8BE67191045ED00ADDB39 /* aortades.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aortades.mp3; sourceTree = "<group>"; };
+		79B8BE691910502100ADDB39 /* ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorViewController.h; sourceTree = "<group>"; };
+		79B8BE6A1910502100ADDB39 /* ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
+		79B8BE6C1910520C00ADDB39 /* azul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = azul.jpg; sourceTree = "<group>"; };
+		79B8BE6D1910520C00ADDB39 /* rojo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rojo.jpeg; sourceTree = "<group>"; };
+		79B8BE701910521300ADDB39 /* verde.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = verde.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +108,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79B7F8D619102B26000A152E /* MapKit.framework in Frameworks */,
+				79B7F8C6190F63CB000A152E /* AudioToolbox.framework in Frameworks */,
+				79B7F8C4190F61E5000A152E /* MediaPlayer.framework in Frameworks */,
 				79B7F886190F2262000A152E /* CoreGraphics.framework in Frameworks */,
 				79B7F888190F2262000A152E /* UIKit.framework in Frameworks */,
 				79B7F884190F2262000A152E /* Foundation.framework in Frameworks */,
@@ -106,6 +152,9 @@
 		79B7F882190F2262000A152E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				79B7F8D519102B26000A152E /* MapKit.framework */,
+				79B7F8C5190F63CB000A152E /* AudioToolbox.framework */,
+				79B7F8C3190F61E5000A152E /* MediaPlayer.framework */,
 				79B7F883190F2262000A152E /* Foundation.framework */,
 				79B7F885190F2262000A152E /* CoreGraphics.framework */,
 				79B7F887190F2262000A152E /* UIKit.framework */,
@@ -117,9 +166,30 @@
 		79B7F889190F2262000A152E /* final */ = {
 			isa = PBXGroup;
 			children = (
+				79B8BE6C1910520C00ADDB39 /* azul.jpg */,
+				79B8BE6D1910520C00ADDB39 /* rojo.jpeg */,
+				79B8BE701910521300ADDB39 /* verde.jpg */,
+				79B8BE591910418800ADDB39 /* corazon.mp3 */,
+				79B8BE67191045ED00ADDB39 /* aortades.mp3 */,
+				79B8BE65191045E700ADDB39 /* aorta.mp3 */,
+				79B8BE63191045D100ADDB39 /* venainf.mp3 */,
+				79B8BE5A1910418800ADDB39 /* cuerpo.jpg */,
+				79B8BE5B1910418800ADDB39 /* mexico.jpg */,
+				79B8BE5C1910418800ADDB39 /* rinonder_.mp3 */,
+				79B8BE5D1910418800ADDB39 /* rinonizq_.mp3 */,
 				79B7F892190F2262000A152E /* AppDelegate.h */,
 				79B7F893190F2262000A152E /* AppDelegate.m */,
 				79B7F895190F2262000A152E /* Main_iPhone.storyboard */,
+				79B8BE691910502100ADDB39 /* ColorViewController.h */,
+				79B8BE6A1910502100ADDB39 /* ColorViewController.m */,
+				79B8BE561910353300ADDB39 /* MapView.h */,
+				79B8BE571910353300ADDB39 /* MapView.m */,
+				79B7F8D219102ADC000A152E /* MapViewController.h */,
+				79B7F8D319102ADC000A152E /* MapViewController.m */,
+				79B7F8C7190F6EBA000A152E /* Season.h */,
+				79B7F8C8190F6EBA000A152E /* Season.m */,
+				79B7F8C0190F5831000A152E /* Cell_season.h */,
+				79B7F8C1190F5831000A152E /* Cell_season.m */,
 				79B7F898190F2262000A152E /* Main_iPad.storyboard */,
 				79B7F89B190F2262000A152E /* FirstViewController.h */,
 				79B7F89C190F2262000A152E /* FirstViewController.m */,
@@ -236,10 +306,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79B8BE64191045D100ADDB39 /* venainf.mp3 in Resources */,
+				79B8BE68191045ED00ADDB39 /* aortades.mp3 in Resources */,
+				79B8BE66191045E700ADDB39 /* aorta.mp3 in Resources */,
+				79B8BE6F1910520C00ADDB39 /* rojo.jpeg in Resources */,
+				79B8BE601910418800ADDB39 /* mexico.jpg in Resources */,
+				79B8BE621910418800ADDB39 /* rinonizq_.mp3 in Resources */,
 				79B7F89A190F2262000A152E /* Main_iPad.storyboard in Resources */,
 				79B7F8A2190F2262000A152E /* Images.xcassets in Resources */,
+				79B8BE611910418800ADDB39 /* rinonder_.mp3 in Resources */,
 				79B7F897190F2262000A152E /* Main_iPhone.storyboard in Resources */,
 				79B7F88E190F2262000A152E /* InfoPlist.strings in Resources */,
+				79B8BE5E1910418800ADDB39 /* corazon.mp3 in Resources */,
+				79B8BE6E1910520C00ADDB39 /* azul.jpg in Resources */,
+				79B8BE711910521300ADDB39 /* verde.jpg in Resources */,
+				79B8BE5F1910418800ADDB39 /* cuerpo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,10 +339,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79B7F8C9190F6EBA000A152E /* Season.m in Sources */,
 				79B7F8A0190F2262000A152E /* SecondViewController.m in Sources */,
+				79B7F8C2190F5831000A152E /* Cell_season.m in Sources */,
 				79B7F894190F2262000A152E /* AppDelegate.m in Sources */,
 				79B7F89D190F2262000A152E /* FirstViewController.m in Sources */,
+				79B8BE6B1910502100ADDB39 /* ColorViewController.m in Sources */,
+				79B8BE581910353300ADDB39 /* MapView.m in Sources */,
 				79B7F890190F2262000A152E /* main.m in Sources */,
+				79B7F8D419102ADC000A152E /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +566,7 @@
 				79B7F8BA190F2263000A152E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79B7F8BB190F2263000A152E /* Build configuration list for PBXNativeTarget "finalTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +575,7 @@
 				79B7F8BD190F2263000A152E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
